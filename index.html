@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Academic Title Recommender</title>
+    <link rel="icon" type="image/svg+xml" href="favicon.svg">
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+        <h1>Academic Title Recommender</h1>
+        
+        <form id="titleForm">
+            <div class="form-group">
+                <label for="paperType">Type of Paper:</label>
+                <select id="paperType" required>
+                    <option value="">Select paper type...</option>
+                    <option value="thesis">Thesis</option>
+                    <option value="capstone">Capstone</option>
+                    <option value="research paper">Research</option>
+                </select>
+            </div>
+            
+            <div class="form-group">
+                <label for="program">Course/Program:</label>
+                <select id="program" required>
+                    <option value="">Select program...</option>
+                    <option value="Mechanical Engineering (BSME)">Mechanical Engineering (BSME)</option>
+                    <option value="Business Administration (BSBA)">Business Administration (BSBA)</option>
+                    <option value="Information Technology (BSIT)">Information Technology (BSIT)</option>
+                    <option value="Electrical Engineering (BSEE)">Electrical Engineering (BSEE)</option>
+                    <option value="Architecture (BS Architecture)">Architecture (BS Architecture)</option>
+                    <option value="Psychology (BS Psychology)">Psychology (BS Psychology)</option>
+                    <option value="Computer Science (BSCS)">Computer Science (BSCS)</option>
+                    <option value="Civil Engineering (BSCE)">Civil Engineering (BSCE)</option>
+                    <option value="Education (BSED)">Education (BSED)</option>
+                    <option value="Nursing (BSN)">Nursing (BSN)</option>
+                </select>
+            </div>
+            
+            <button type="submit" class="generate-btn" id="generateBtn">
+                Generate Title
+            </button>
+        </form>
+        
+        <div id="resultContainer" class="result-container">
+            <div class="result-title">Your Title Suggestion:</div>
+            <div class="title-counter" id="titleCounter">Title 1 of 5</div>
+            <div class="title-display">
+                <div id="generatedTitle" class="generated-title"></div>
+                <button id="diceBtn" class="dice-btn" title="Get another title suggestion">
+                    <span class="dice-icon">🎲</span>
+                </button>
+            </div>
+        </div>
+
+    <script src="script.js"></script>
+</body>

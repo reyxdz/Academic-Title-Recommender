@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+  <rect width="100" height="100" fill="#2C3E50"/>
+  <!-- Book spine -->
+  <rect x="35" y="20" width="30" height="60" fill="#E74C3C" rx="2"/>
+  <!-- Book pages -->
+  <rect x="38" y="23" width="24" height="54" fill="#ECF0F1" rx="1"/>
+  <!-- Page lines -->
+  <line x1="42" y1="30" x2="58" y2="30" stroke="#95A5A6" stroke-width="1.5"/>
+  <line x1="42" y1="36" x2="58" y2="36" stroke="#95A5A6" stroke-width="1.5"/>
+  <line x1="42" y1="42" x2="58" y2="42" stroke="#95A5A6" stroke-width="1.5"/>
+  <line x1="42" y1="48" x2="58" y2="48" stroke="#95A5A6" stroke-width="1.5"/>
+  <line x1="42" y1="54" x2="58" y2="54" stroke="#95A5A6" stroke-width="1.5"/>
+  <line x1="42" y1="60" x2="58" y2="60" stroke="#95A5A6" stroke-width="1.5"/>
+  <line x1="42" y1="66" x2="58" y2="66" stroke="#95A5A6" stroke-width="1.5"/>
+</svg>
